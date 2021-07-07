@@ -3,6 +3,7 @@
     "title": "string",
     "views": "int",
     "published": "boolean",
-    "createdAt": "date"
+    "createdAt": "date",
+    "editedAt": "date",
   }
 }
