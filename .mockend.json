@@ -5,12 +5,18 @@
     "published": "boolean",
     "createdAt": "date",
     "deletedAt": "date"
-  },
-  
+  },  
   "auth": {
     "status": "string",
     "code": "int",
     "message": "string",
-    "data":  {  "userid": "int", "profile_image": "string",  "name": "string", "email": "string", "mobile": "int"  } 
-  }
+    "data": "userdata" 
+  },
+  "userdata": { 
+    "userid": "int", 
+    "profile_image": "string",  
+    "name": "string", 
+    "email": "string", 
+    "mobile": "int"  
+  } 
 }
