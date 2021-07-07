@@ -8,9 +8,9 @@
   },
   
   "auth": {
-    "status": "success",
-    "code": 200,
-    "message": "OK",
-    "data":  {  "userid": 123, "profile_image": "",  "name": "XYZ", "email": "engrossinfotech.test@gmail.com", "mobile": 987654321  } 
+    "status": "string",
+    "code": "int",
+    "message": "string",
+    "data":  {  "userid": "int", "profile_image": "string",  "name": "string", "email": "string", "mobile": "int"  } 
   }
 }
