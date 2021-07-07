@@ -6,4 +6,11 @@
     "createdAt": "date",
     "deletedAt": "date"
   }
+  
+  "auth": {
+    "status": "success",
+    "code": 200,
+    "message": "OK",
+    "data":  {  "userid": 123, "profile_image": '',  "name": 'XYZ', "email": '', "mobile": 987654321  } 
+  }
 }
