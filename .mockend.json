@@ -4,7 +4,8 @@
     "views": "int",
     "published": "boolean",
     "createdAt": "date",
-    "deletedAt": "date"
+    "deletedAt": "date",
+    "other": "Auth"
   },  
   "Auth": {
     "status": "string",
