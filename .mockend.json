@@ -6,13 +6,13 @@
     "createdAt": "date",
     "deletedAt": "date"
   },  
-  "auth": {
+  "Auth": {
     "status": "string",
     "code": "int",
     "message": "string",
-    "data": "userdata" 
+    "data": "string" 
   },
-  "userdata": { 
+  "Userdata": { 
     "userid": "int", 
     "profile_image": "string",  
     "name": "string", 
