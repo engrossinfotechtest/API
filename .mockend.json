@@ -4,20 +4,10 @@
     "views": "int",
     "published": "boolean",
     "createdAt": "date",
-    "deletedAt": "date",
-    "other": "Auth"
-  },  
-  "Auth": {
-    "status": "string",
-    "code": "int",
-    "message": "string",
-    "data": "Userdata[]" 
+    "comments": "Comment[]"
   },
-  "Userdata": { 
-    "userid": "int", 
-    "profile_image": "string",  
-    "name": "string", 
-    "email": "string", 
-    "mobile": "int"  
-  } 
+  "Comment": {
+    "body": "string",
+    "post": "Post"
+  }
 }
