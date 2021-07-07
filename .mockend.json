@@ -1,13 +1,14 @@
 {
+  
+  "Comment": {
+    "body": "string",
+    "post": "Post"
+  },
   "Post": {
     "title": "string",
     "views": "int",
     "published": "boolean",
     "createdAt": "date",
-    "comments": "string"
-  },
-  "Comment": {
-    "body": "string",
-    "post": "Post"
+    "comments": "Comment[]"
   }
 }
