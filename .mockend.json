@@ -4,6 +4,5 @@
     "views": "int",
     "published": "boolean",
     "createdAt": "date",
-    "editedAt": "date",
   }
 }
